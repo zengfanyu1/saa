@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>帮助</title>
+    <link rel="stylesheet" href="../element/index.css">
+    <link rel="stylesheet" href="../css/allStyle.css">
+</head>
+<body>
+<div class="page" v-cloak>
+    <div class="nav_menu">
+        <div class="left_logo"><img src="../image/logo.png"></div>
+        <ul class="cen_nav">
+            <li v-for="(item,index) in navList" @click="goPage(index)"><a :href="thisUrl" :class="{active:active == index}">{{item.name}}</a></li>
+        </ul>
+        <div class="right_btn">
+            <a href="" class="dd_btn">钉钉登录</a>
+            <a href="" class="wx_btn">企业微信登录</a>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="../js/vue.min.js"></script>
+<script src="../element/index.js"></script>
+<script>
+    new Vue({
+        el:'.page',
+        data:{
+            navList:[
+                {name:'首页',links:'home.html'},
+                {name:'产品',links:'product.html'},
+                {name:'定价',links:'fixed_price.html'},
+                {name:'帮助',links:'help.html'},
+                {name:'模版市场',links:'template_market.html'},
+                {name:'第三方平台介绍',links:'platform_intro.html'},
+            ],
+            active:3,
+            thisUrl:'#'
+        },
+        methods:{
+            goPage(index){
+                this.active = index;
+                this.navList.forEach((v,i)=> {
+                    if(index === i){
+                        this.thisUrl = v.links;
+                    }
+                })
+            }
+        }
+    })
+
+</script>
+</html>

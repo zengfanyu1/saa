@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模版市场</title>
+    <link rel="stylesheet" href="../css/allStyle.css">
+    <link rel="stylesheet" href="../carousel/ft_carousel.css">
+</head>
+<body>
+<div class="page">
+    <div class="nav_menu">
+        <div class="left_logo"><img src="../image/logo.png"></div>
+        <ul class="cen_nav">
+            <li><a href="home.html">首页</a></li>
+            <li><a href="product.html">产品</a></li>
+            <li><a href="fixed_price.html">定价</a></li>
+            <li><a href="help.html">帮助</a></li>
+            <li class="active"><a href="template_market.html">模版市场</a></li>
+            <li><a href="platform_intro.html">第三方平台介绍</a></li>
+        </ul>
+        <div class="right_btn">
+            <a href="" class="dd_btn">钉钉登录</a>
+            <a href="" class="wx_btn">企业微信登录</a>
+        </div>
+    </div>
+    <div class="tem_one">
+        <div class="tem_left_info">
+            <p class="lb_title"><span  class="color_black">丰富的工单模版，</span><span class="color_blue">满足行业需求</span></p>
+            <div class="lb_info">
+                <p>满足多种行业的使用场景，我们为您提供了多种行业案例模版，您所遇到的工单管理难</p>
+                <p>题在这里都能找到解决方案。未来您将告别繁琐和沉重的方案之路，将管理工作交给业</p>
+                <p>务流程自动化，我们将为您提供一站式服务！</p>
+            </div>
+        </div>
+        <img src="../image/mbanner1.png">
+        <img src="../image/mbanner2.png" class="tem_banner_logo">
+        <img src="../image/mbanner3.png" class="tem_banner_dx">
+        <img src="../image/mbanner4.png" class="tem_banner_dd">
+    </div>
+    <div class="tem_two">
+        <div class="tem_item_box">
+            <div class="tem_two_item">
+                <img src="../image/micon1.png">
+                <p class="tem_title">互联网 / 信息技术</p>
+                <div class="tem_info">
+                    <p>建立企业多种客户渠道支持、软件权</p>
+                    <p>限分配明确、工单协同流转的高效IT</p>
+                    <p>内部运维。</p>
+                </div>
+            </div>
+            <div class="tem_two_item">
+                <img src="../image/micon2.png">
+                <p class="tem_title">制造业</p>
+                <div class="tem_info">
+                    <p>建立厂商、经销商等多级服务管理体</p>
+                    <p>系，线上线下一体化管控造业。</p>
+                </div>
+            </div>
+            <div class="tem_two_item">
+                <img src="../image/micon3.png">
+                <p class="tem_title">零售 / 贸易</p>
+                <div class="tem_info">
+                    <p>建立经销商销货、送货、安装到售后</p>
+                    <p>的无缝协同，实现服务过程的全流程</p>
+                    <p>管控。</p>
+                </div>
+            </div>
+        </div>
+       <div class="tem_item_box">
+           <div class="tem_two_item">
+               <img src="../image/micon4.png">
+               <p class="tem_title">服务业</p>
+               <div class="tem_info">
+                   <p>建立服务过程中变量信息同步各方，</p>
+                   <p>减少沟通成本，提高服务质量，打造</p>
+                   <p>高效协同服务加速企业的业绩提升。</p>
+               </div>
+           </div>
+           <div class="tem_two_item">
+               <img src="../image/micon5.png">
+               <p class="tem_title">建筑业</p>
+               <div class="tem_info">
+                   <p>建立项目规范管理流程，项目数据及</p>
+                   <p>时追踪，汇总分析，把控流程数据权</p>
+                   <p>限、合同管理，促进企业降本增效。</p>
+               </div>
+           </div>
+           <div class="tem_two_item">
+               <img src="../image/micon6.png">
+               <p class="tem_title">教育</p>
+               <div class="tem_info">
+                   <p>满足互联网教育行业企业售中售</p>
+                   <p>后不同阶段和不同规模企业需求，同</p>
+                   <p>时减少客户服务人工和管理成本。</p>
+               </div>
+           </div>
+       </div>
+
+    </div>
+
+    <footer></footer>
+</div>
+
+</body>
+<script src="../js/jquery.min.js"></script>
+<script src="../carousel/ft-carousel.js"></script>
+<script src="../js/common.js"></script>
+<script>
+    $(function () {
+        $('.tem_two_item').click(function () {
+            // widow.location.href ='template_item.html'
+            $(window).attr('location',"template_item.html");
+        })
+    })
+
+</script>
+</html>
