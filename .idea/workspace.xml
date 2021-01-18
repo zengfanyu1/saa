@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e25e2c9-8d03-4fe8-9fd3-029382c25b3f" name="Default Changelist" comment="" />
+    <list default="true" id="7e25e2c9-8d03-4fe8-9fd3-029382c25b3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/image/gljn1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/gljn2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/gljn3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/gljn4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/allStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/allStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/home.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +23,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1n2aYdx9EoS6PCXfn462hqy5y4y" />
   <component name="ProjectViewState">
@@ -36,13 +47,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\yygd_gw\image" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\saas\image" />
       <recent name="C:\xampp\htdocs\yygd_gw\image" />
       <recent name="C:\xampp\htdocs\yygd_gw\js" />
       <recent name="C:\xampp\htdocs\yygd_gw" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\yygd_gw\image" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -70,6 +82,7 @@
       <workItem from="1610590692952" duration="22478000" />
       <workItem from="1610672200670" duration="27892000" />
       <workItem from="1610931162143" duration="24648000" />
+      <workItem from="1610962459304" duration="788000" />
     </task>
     <servers />
   </component>

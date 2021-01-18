@@ -241,3 +241,14 @@ li{ list-style: none;}
 .gd_img6{ position: absolute;left: 419px;top: 147px;opacity: 0;animation: opacityImg 1s;animation-fill-mode: forwards;animation-delay: 0.8s;}
 .gd_img7{ position: absolute;left: 144px;top: 294px;opacity: 0;animation: opacityImg 1s;animation-fill-mode: forwards;animation-delay: 1s;}
 
+.gljn_img1{ position: relative;}
+.gljn_img2{ position: absolute;left: 294px;top: -73px;animation: topImg2 2s infinite; animation-fill-mode: forwards;}
+.gljn_img3{ position: absolute;left: 482px;top: 120px;}
+.gljn_img4{ position: absolute;left: 137px;top: -58px;}
+@keyframes topImg2 {
+    0%{ top: -80px;}
+    25%{ top: -81px;}
+    50%{ top: -79px;}
+    75%{ top: -73px;}
+    100%{ top: -80px;}
+}
